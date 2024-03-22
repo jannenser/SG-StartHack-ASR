@@ -22,10 +22,10 @@ To check the decoding for Telegram-bot you should run the file main.py, it is im
 6. Different .csv files with mapping filename.wav-utterance: bern.csv - 40k audios from corpus of Bern Parliament, swiss_sg.csv - 500 audios (own recorded) on SG call center topics
 7. Files with SG call center transcription: SG_1-4.xlsx
 8. Swiss German vocabulary, based on text data, needed for ctc decoder: lexicon-2.txt
-9. KenLm Swiss German Language Model, based on text data: new-swiss_kenlm.bin
-10. Best ASR model from Swiss Speech to text: model-v2.pth (90 MB)
-11. Keyword extraction
-12. Not included on github: 40k .flac and .wav audio files, located on the private google drive
+9. KenLm Swiss German Language Model, based on text data (not included on github): new_swiss_kenlm.bin
+11. Best ASR model from Swiss Speech to text (not included on github): model-v2.pt
+12. Keyword extraction
+13. Not included on github: 40k .flac and .wav audio files, located on the private google drive
 
 ## ASR Swiss Speech Model View
 WER = 30% on test: of the best model for the SPECIFIC goverment-related topics
