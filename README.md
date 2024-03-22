@@ -5,11 +5,11 @@ Note: this repository will be private after the competition, since we want to co
 ## Use of Swiss German Voice Assistant
 
 To check Voice-Chat in Telegram reach the Telegram-bot = @SwissGerman (not on the server, you will need to contact us to put it on OR you can test it yourself.
-You will need to send a voice message with the question to Canton of Sankt Gallen, the reply will be a text message with redirection to responsible authorities on your topic (e.g. taxes, migration office).
+You will need to send a voice message with the question to the Canton of Sankt Gallen, the reply will be a text message with redirection to responsible authorities on your topic (e.g. taxes, migration office).
 
 ## Installation of Telegram-bot
 
-To check the decoding for Telegram-bot you should run the file main.py, it is important to keep files beam_search_decoder_ASR_telegram.py, new-swiss_kenlm.bin, lexicon-2.txt in the same directory. But you also need to have your own TOKEN for the bot and contact us for the config.py.
+To check the decoding for Telegram-bot you should contact us for the model-v2.pth, new_swiss_kenlm.bin files. Run the file main.py, it is important to keep files beam_search_decoder_ASR_telegram.py, new_swiss_kenlm.bin, lexicon-2.txt, model-v2.pth in the same directory. But you also need to have your own TOKEN for the bot and contact us for the config.py.
 
 ## Use of High German Assistant
 
