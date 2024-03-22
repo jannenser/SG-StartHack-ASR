@@ -12,6 +12,7 @@ You will need to send a voice message with the question to the Canton of Sankt G
 To check the decoding for Telegram-bot you should contact us for the model-v2.pth, new_swiss_kenlm.bin files. Run the file main.py, it is important to keep files beam_search_decoder_ASR_telegram.py, new_swiss_kenlm.bin, lexicon-2.txt, model-v2.pth in the same directory. But you also need to have your own TOKEN for the bot and contact us for the config.py.
 
 ## Use of High German Assistant
+See code in file vox.js
 
 ## Files description
 1. Substitution of numbers in text; spell_numbers_in_german.ipynb
@@ -26,6 +27,7 @@ To check the decoding for Telegram-bot you should contact us for the model-v2.pt
 11. Best ASR model from Swiss Speech to text (not included on github): model-v2.pt
 12. Keyword extraction
 13. Not included on github: 40k .flac and .wav audio files, located on the private google drive
+14. Voximplant app for High German call assistant: vox.js
 
 ## ASR Swiss Speech Model View
 WER = 30% on test: of the best model for the SPECIFIC goverment-related topics
